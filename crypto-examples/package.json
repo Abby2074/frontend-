@@ -1,0 +1,19 @@
+{
+  "name": "crypto-examples",
+  "version": "1.0.0",
+  "description": "Educational cryptographic algorithm examples for group assignment",
+  "scripts": {
+    "aes": "node 01-aes-encryption.js",
+    "des": "node 02-des-encryption.js",
+    "rsa": "node 03-rsa-encryption.js",
+    "sha256": "node 04-sha256-hashing.js",
+    "bcrypt": "node 05-bcrypt-hashing.js",
+    "signatures": "node 06-digital-signatures.js",
+    "hmac": "node 07-hmac.js",
+    "dh": "node 08-diffie-hellman.js",
+    "all": "node 01-aes-encryption.js && node 02-des-encryption.js && node 03-rsa-encryption.js && node 04-sha256-hashing.js && node 05-bcrypt-hashing.js && node 06-digital-signatures.js && node 07-hmac.js && node 08-diffie-hellman.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}
